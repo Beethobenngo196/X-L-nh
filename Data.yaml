@@ -1,0 +1,10 @@
+# Đường dẫn thư mục gốc chứa ảnh (tính từ nơi chạy code main.py)
+path: ./data/dataset
+
+# Đường dẫn tới tập học và tập kiểm tra
+train: train/images
+val: test/images
+
+# Số lượng nhãn và tên nhãn
+nc: 4
+names: ['0.Bien_50', '1.Quay_dau', '2.Vang', '3.Nut']
