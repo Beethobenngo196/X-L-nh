@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO(r'D:\XLA1\runs\detect\Ket_Qua_Train\lan_chay\weights\best.pt')
 
 # Chạy dự đoán từ webcam và hiển thị trực tiếp (show=True)
-results = model.predict(source=r'D:\XLA1\data\dataset\output\frames\frame_54.jpg', show=True, conf=0.5)
+results = model.predict(source=r'D:\XLA1\data\dataset\output\frames\frame_194.jpg', show=True, conf=0.5,save=True)
 
 # In kết quả
 for r in results:

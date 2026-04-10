@@ -7,12 +7,12 @@ if __name__ == '__main__':
 
     resutlts = model.train(
         data="data/Data.yaml",   
-        epochs=50,               
+        epochs=200,               
         imgsz=640,  
         workers=0,             
         batch=8,                  
         device=0,                                 
-        project="Ket_Qua_Train",  # Thư mục lưu kết quả
+        project="Ket_Qua_Train",   
         name="lan_chay",
         exist_ok=True             # Ghi đè nếu tên thư mục đã tồn tại
     )
